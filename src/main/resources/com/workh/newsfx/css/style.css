@@ -1,0 +1,117 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');*/
+
+@font-face {
+    font-weight: 400;
+    font-family: Oswald;
+    src: url("../font/static/Oswald_Regular.ttf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: Oswald;
+    src: url("../font/static/OswaldBold.ttf");
+}
+
+@font-face {
+    font-weight: 200;
+    font-family: Oswald;
+    src: url("../font/static/Oswald_ExtraLight.ttf");
+}
+
+@font-face {
+    font-weight: 300;
+    font-family: Oswald;
+    src: url("../font/static/Oswald_Light.ttf");
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: Oswald;
+    src: url("../font/static/Oswald_Medium.ttf");
+}
+
+@font-face {
+    font-weight: 600;
+    font-family: Oswald;
+    src: url("../font/static/Oswald_SemiBold.ttf");
+}
+
+.archPane{
+    -fx-background-color: #579192;
+}
+
+.inputText{
+    -fx-text-fill: #2C2D31;
+    -fx-border-radius: 10;
+    -fx-background-radius: 7;
+    -fx-border-color: #2C2D31;
+    -fx-background-color: #579192;
+    -fx-padding: 10 20;
+    -fx-font-weight: 600;
+    -fx-prompt-text-fill: #ffffff;
+}
+
+.inputText:focused{
+    -fx-border-color: #7EA5D0;
+}
+
+.ch_btn {
+    -fx-background-color: #2C2D31;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 10;
+    -fx-padding: 10 20;
+    -fx-font-weight: 400;
+}
+
+.ch_btn:hover {
+    -fx-translate-y: -2;
+    -fx-background-color:#ffffff;
+    -fx-text-fill:#2C2D31;
+}
+
+.ch_btn:pressed {
+    -fx-background-color: #4E6974;
+}
+
+.headLable{
+    -fx-text-fill: #2C2D31;
+    -fx-font-weight: 700;
+}
+
+.hyperLink{
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: 400;
+}
+
+.hyperLink:hover {
+    -fx-text-fill: #2C2D31;
+}
+
+.alertLable{
+    -fx-font-weight:700;
+    -fx-text-fill: #7a060a;
+
+}
+
+.onlyBackground{
+    -fx-background-color: #579192;
+}
+
+.subHeadArticle{
+    -fx-font-weight: 700;
+    -fx-text-fill:#2C2D31;
+    -fx-padding: 0 10;
+}
+
+.article{
+    -fx-font-weight: 600;
+    -fx-text-fill:#2C2D31;
+    -fx-padding: 0 10;
+}
+
+.articleText{
+    -fx-font-weight: 600;
+    -fx-text-fill:#2C2D31;
+    -fx-padding: 5 10;
+}
+

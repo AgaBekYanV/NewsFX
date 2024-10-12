@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="archPane" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.workh.newsfx.Controllers.RegController">
+    <children>
+        <Label layoutX="75.0" layoutY="35.0" prefHeight="53.0" prefWidth="174.0" styleClass="headLable" stylesheets="@css/style.css" text="Регистрация" textFill="WHITE">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <TextField fx:id="regLogin" focusTraversable="false" layoutX="42.0" layoutY="98.0" prefHeight="26.0" prefWidth="240.0" promptText="Login" styleClass="inputText" stylesheets="@css/style.css" />
+        <TextField fx:id="regEmail" focusTraversable="false" layoutX="42.0" layoutY="151.0" prefHeight="26.0" prefWidth="240.0" promptText="Email" styleClass="inputText" stylesheets="@css/style.css" />
+        <PasswordField fx:id="regPass" focusTraversable="false" layoutX="42.0" layoutY="207.0" prefHeight="40.0" prefWidth="240.0" promptText="Password" styleClass="inputText" stylesheets="@css/style.css" />
+        <Button fx:id="regBtn" layoutX="67.0" layoutY="307.0" mnemonicParsing="false" onMouseClicked="#registrationUser" styleClass="ch_btn" stylesheets="@css/style.css" text="Зарегистрироваться" />
+      <Label layoutX="372.0" layoutY="35.0" prefHeight="53.0" prefWidth="180.0" styleClass="headLable" stylesheets="@css/style.css" text="Авторизация" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="authLogin" focusTraversable="false" layoutX="342.0" layoutY="98.0" prefHeight="26.0" prefWidth="240.0" promptText="Login" styleClass="inputText" stylesheets="@css/style.css" />
+      <Button fx:id="authBtn" layoutX="422.0" layoutY="208.0" mnemonicParsing="false" onMouseClicked="#authenticationUser" styleClass="ch_btn" stylesheets="@css/style.css" text="Войти" />
+      <PasswordField fx:id="authPass" focusTraversable="false" layoutX="342.0" layoutY="151.0" prefHeight="40.0" prefWidth="240.0" promptText="Password" styleClass="inputText" stylesheets="@css/style.css" />
+      <CheckBox fx:id="regCheckbox" layoutX="45.0" layoutY="269.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="234.0" selected="true" styleClass="hyperLink">
+         <graphic>
+            <Hyperlink prefHeight="24.0" prefWidth="212.0" styleClass="hyperLink" text="Пользовательское соглашение" textFill="WHITE" underline="true" wrapText="true" />
+         </graphic>
+      </CheckBox>
+      <Label fx:id="alertLabel" alignment="CENTER" focusTraversable="false" layoutX="134.0" layoutY="354.0" prefHeight="32.0" prefWidth="417.0" styleClass="alertLable" stylesheets="@css/style.css" textAlignment="CENTER" wrapText="true" />
+    </children>
+</AnchorPane>
